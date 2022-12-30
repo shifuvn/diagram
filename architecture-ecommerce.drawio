@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-30T03:08:00.586Z" agent="5.0 (Windows)" etag="AvTJl5FdWLrEPXojPovT" version="20.7.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-12-30T03:10:28.644Z" agent="5.0 (Windows)" etag="XY-aZAL-_Ohz4TpDQKYj" version="20.7.4" type="github" pages="3">
   <diagram id="kxoggQMOIerRVnNvIGJB" name="Page-1">
     <mxGraphModel dx="1834" dy="1154" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -241,7 +241,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5jhEbbEkWmwQDy5OxIEi-47" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;startArrow=none;startFill=0;" edge="1" parent="1" source="5jhEbbEkWmwQDy5OxIEi-29" target="5jhEbbEkWmwQDy5OxIEi-38">
+        <mxCell id="5jhEbbEkWmwQDy5OxIEi-47" value="miss" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;startArrow=none;startFill=0;" edge="1" parent="1" source="5jhEbbEkWmwQDy5OxIEi-29" target="5jhEbbEkWmwQDy5OxIEi-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5jhEbbEkWmwQDy5OxIEi-29" value="In-mem cache" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
@@ -289,7 +289,7 @@
         <mxCell id="ToXC3OGtruKS-DPVH_9I-14" value="miss" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;startArrow=none;startFill=0;" edge="1" parent="ToXC3OGtruKS-DPVH_9I-5" source="ToXC3OGtruKS-DPVH_9I-10" target="ToXC3OGtruKS-DPVH_9I-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ToXC3OGtruKS-DPVH_9I-19" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;startArrow=none;startFill=0;" edge="1" parent="ToXC3OGtruKS-DPVH_9I-5" source="ToXC3OGtruKS-DPVH_9I-10" target="ToXC3OGtruKS-DPVH_9I-18">
+        <mxCell id="ToXC3OGtruKS-DPVH_9I-19" value="hit" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;startArrow=none;startFill=0;" edge="1" parent="ToXC3OGtruKS-DPVH_9I-5" source="ToXC3OGtruKS-DPVH_9I-10" target="ToXC3OGtruKS-DPVH_9I-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ToXC3OGtruKS-DPVH_9I-10" value="Get Redis" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="ToXC3OGtruKS-DPVH_9I-5">
