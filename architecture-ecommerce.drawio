@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-15T10:57:07.731Z" agent="5.0 (Windows)" etag="liWIIfyhg0fKUfHNIJtJ" version="20.8.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-20T17:21:19.873Z" agent="5.0 (Windows)" etag="ua4xqsjnTnSGVWBcv6jN" version="20.8.5" type="github" pages="6">
   <diagram id="kxoggQMOIerRVnNvIGJB" name="Page-1">
-    <mxGraphModel dx="1450" dy="938" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1281" dy="853" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -510,6 +510,29 @@
         </mxCell>
         <mxCell id="5pqI-scbJ90UlD7BS7ZB-10" value="Set in Mem_cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="aRrSXYbGALixecp77XpP" name="Page-6">
+    <mxGraphModel dx="881" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N_hbKpk23PzIfrB8fHq4-7" value="&lt;div&gt;get Ids + total &lt;br&gt;&lt;/div&gt;&lt;div&gt;item count&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N_hbKpk23PzIfrB8fHq4-1" target="N_hbKpk23PzIfrB8fHq4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N_hbKpk23PzIfrB8fHq4-1" value="getList id by keyword" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="30" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N_hbKpk23PzIfrB8fHq4-5" value="&lt;div&gt;query &amp;amp; cache result &lt;br&gt;&lt;/div&gt;&lt;div&gt;total item in DB (24h)&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="N_hbKpk23PzIfrB8fHq4-2" target="N_hbKpk23PzIfrB8fHq4-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N_hbKpk23PzIfrB8fHq4-2" value="Exec procedure" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="305" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N_hbKpk23PzIfrB8fHq4-4" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="640" y="190" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
